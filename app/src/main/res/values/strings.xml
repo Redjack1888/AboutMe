@@ -8,5 +8,7 @@
         music in different ways.\n\nMy desire to be part of the changing way in which people experience music led to my
         certifications as an Android Developer, exploring the interface between software engineering and entertainment.\n\n
     </string>
+    <string name="what_is_your_nickname">What is your Nickname?</string>
+    <string name="done">done</string>
 
 </resources>
