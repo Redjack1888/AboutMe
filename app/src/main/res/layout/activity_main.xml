@@ -3,13 +3,23 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools" >
+
+    <data>
+        <!-- Declare a variable by specifying a name and a data type. -->
+        <!-- Use fully qualified name for the type. -->
+        <variable
+                name="myName"
+                type="com.example.alessandro.aboutme.MyName"/>
+    </data>
+
+
 <LinearLayout
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
     <TextView
-            android:text="@string/name"
+            android:text="@={myName.name}"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/name_text"
@@ -43,9 +53,11 @@
     <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/nickname_text" style="@style/nameStyle"
+            android:id="@+id/nickname_text"
+            style="@style/nameStyle"
             android:textAlignment="center"
             android:visibility="gone"
+            android:text="@={myName.nickname}"
             android:layout_marginEnd="@dimen/layout_margin"
             android:layout_marginStart="@dimen/layout_margin"/>
 
