@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">AboutMe</string>
+    <string name="app_name">About Me</string>
+    <string name="name">Alessandro Mana</string>
+    <string name="yellow_star">Yellow Star</string>
+    <string name="bio">My name is Alessandro Mana.\n\nI am an Experienced Blogger with a demonstrated history of working in the music industry. My
+        passion for new technologies contributed to fifteen successful years as a musician and promoter.\n\nI have always
+        been fond of all kinds of music and how new technologies can influence people of different cultures to enjoy
+        music in different ways.\n\nMy desire to be part of the changing way in which people experience music led to my
+        certifications as an Android Developer, exploring the interface between software engineering and entertainment.\n\n
+    </string>
+
 </resources>
